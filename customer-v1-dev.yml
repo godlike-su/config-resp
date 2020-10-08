@@ -1,3 +1,4 @@
+#这里是bootstrap.yml里面没有的内容
 eureka:
   client:
     registry-fetch-interval-seconds: 30  # 每隔多久去更新下本地缓存信息
