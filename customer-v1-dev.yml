@@ -1,4 +1,9 @@
-
+eureka:
+  client:
+    registry-fetch-interval-seconds: 30  # 每隔多久去更新下本地缓存信息
+  instance:
+    lease-renewal-interval-in-seconds: 90     #心跳间隔
+    lease-expiration-duration-in-seconds: 30  #多久没发送，就认为你宕机了
 #指定具体服务的负载均衡
 # 编写服务名称
 SEARCH:
