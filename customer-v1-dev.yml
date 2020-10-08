@@ -24,6 +24,3 @@ spring:
     virtual-host: /test
 
  
-
-server:
-  port: 8080
